@@ -1,7 +1,7 @@
 <?php
 // HTTP
 define('HTTP_SERVER', 'http://'. $_ENV['OPENSHIFT_APP_DNS'] .'/admin/');
-define('HTTP_CATALOG', 'http://'. $_ENV['OPENSHIFT_APP_DNS'] .'/opencart/');
+define('HTTP_CATALOG', 'http://'. $_ENV['OPENSHIFT_APP_DNS']);
 define('HTTP_IMAGE', 'http://'. $_ENV['OPENSHIFT_APP_DNS'] .'/image/');
 
 // HTTPS
