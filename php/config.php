@@ -6,7 +6,7 @@ define('HTTP_IMAGE', 'http://'. $_ENV['OPENSHIFT_APP_DNS'] .'/image/');
 
 // HTTPS
 define('HTTPS_SERVER', 'https://'. $_ENV['OPENSHIFT_APP_DNS'] .'/admin/');
-define('HTTPS_CATALOG', 'https://'. $_ENV['OPENSHIFT_APP_DNS'] .);
+define('HTTPS_CATALOG', 'https://'. $_ENV['OPENSHIFT_APP_DNS']);
 define('HTTPS_IMAGE', 'https://'. $_ENV['OPENSHIFT_APP_DNS'] .'/image/');
 
 // DIR
