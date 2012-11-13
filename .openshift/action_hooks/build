@@ -3,12 +3,3 @@
 # available.  Otherwise it will execute while your application is stopped
 # before the deploy step.  This script gets executed directly, so it
 # could be python, php, ruby, etc.
-
-chmod 0755 $OPENSHIFT_REPO_DIR/php/image/
-chmod 0755 $OPENSHIFT_REPO_DIR/php/image/cache/
-chmod 0755 $OPENSHIFT_REPO_DIR/php/image/data/   
-chmod 0755 $OPENSHIFT_REPO_DIR/php/system/cache/
-chmod 0755 $OPENSHIFT_REPO_DIR/php/system/logs/
-chmod 0755 $OPENSHIFT_REPO_DIR/php/download/
-chmod 0755 $OPENSHIFT_REPO_DIR/php/config.php
-chmod 0755 $OPENSHIFT_REPO_DIR/php/admin/config.php
