@@ -34,8 +34,4 @@ Then push the repo upstream
 
 Additional Info
 ----------------------------
-Default credential
-
-	Username  : admin
-	Password  : admin
-	Admin URL : http://yourapp-yournamespace.rhcloud.com/admin
+Complete web installation, all database settings are set using OpenShift environment
