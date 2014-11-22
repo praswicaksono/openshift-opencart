@@ -1,7 +1,5 @@
+<footer>
+  <div class="container"><a href="http://www.opencart.com" target="_blank"><?php echo $text_project; ?></a>|<a href="http://www.opencart.com/index.php?route=documentation/introduction" target="_blank"><?php echo $text_documentation; ?></a>|<a href="http://forum.opencart.com" target="_blank"><?php echo $text_support; ?></a><br />
     </div>
-    <div id="content_bottom"></div>
-  </div>
-  <div id="footer"><a onclick="window.open('http://www.opencart.com');">Project Homepage</a>|<a onclick="window.open('http://www.opencart.com/index.php?route=documentation/introduction');">Documentation</a>|<a onclick="window.open('http://forum.opencart.com');">Support Forums</a></div>
-</div>
-</body>
-</html>
+</footer>
+</body></html>
